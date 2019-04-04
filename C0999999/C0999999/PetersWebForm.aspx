@@ -12,6 +12,11 @@
             <H1>Newsletter Signup</H1>
         </div>
         <asp:Label ID="lblEMAIL" runat="server" Font-Names="Arial Narrow" Text="Email Peter"></asp:Label>
+        <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <br />
+        <asp:Button ID="Submit" runat="server" Text="Button" />
     </form>
 </body>
 </html>
