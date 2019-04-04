@@ -10,6 +10,7 @@ namespace April4G
     {
         static void Main(string[] args)
         {
+            // this is a comment
         }
     }
 }
