@@ -11,6 +11,19 @@ namespace C0999999
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                ltMessage.Text = "Welcome to TheProf.ca - The place to learn all about Peter";
+                // TODO: validate email and save to data storage
+
+                ltMessage.Text = "You are now on our email list";
+
+            }
+        }
+
+        protected void btnSubmit_Click(object sender, EventArgs e)
+        {
+            string email = txtEmail.Text;
 
         }
     }

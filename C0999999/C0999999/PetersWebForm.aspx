@@ -10,13 +10,19 @@
     <form id="form1" runat="server">
         <div>
             <H1>Newsletter Signup</H1>
+         
+                <asp:Literal ID="ltMessage" runat="server"></asp:Literal>
+            
         </div>
+        <br />
+        <br />
         <asp:Label ID="lblEMAIL" runat="server" Font-Names="Arial Narrow" Text="Email Peter"></asp:Label>
+        &nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="txtEmail" runat="server"></asp:TextBox>
         <br />
         <br />
         <br />
-        <asp:Button ID="Submit" runat="server" Text="Button" />
+        <asp:Button ID="btnSubmit" runat="server" Text="Submit" BackColor="#660066" ForeColor="#CCFF99" OnClick="btnSubmit_Click" />
     </form>
 </body>
 </html>
